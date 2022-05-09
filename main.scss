@@ -1,0 +1,85 @@
+        // Site colour theme variables
+        $primaryColour: #7C140C;
+        $secondaryColour: #B22425;
+        $textColour: white;
+        $bodyBackground: white;
+        $buttonColour1: #0C747C;
+        $sectionColour: #F5F3EF;
+        // Site body
+        body {
+            background-color: white;
+            margin: 0;
+            a {
+                text-decoration: none;
+            }
+        }
+        
+        .container {
+            padding: 10px 25px;
+        }
+        
+        .button1 {
+            background-color: $buttonColour1;
+            border: 1px solid gray;
+            padding: 10px;
+            color: $textColour;
+            border-radius: 5px;
+            border: 1px 1px 3px 2px solid gray;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        
+        // Navigation bar section
+        .nav-bar {
+            background-color: $secondaryColour;
+            box-shadow: 0 0 5px 0 solid white;
+            color: $textColour;
+            padding: 0 0 0 25px;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            .brand-logo-txt {
+                font-size: 25px;
+                padding: 10;
+            }
+            .top-navbar {
+                overflow: hidden;
+                a {
+                    padding: 0 7px;
+                }
+            }
+            a {
+                color: $textColour;
+            }
+        }
+        
+        // Brands section
+        .brands-section {
+            background-color: $primaryColour;
+            padding: 75px 10px 40px;
+            text-align: center;
+            color: $textColour;
+            margin: 0px;
+            .car-brands {
+                padding: 15px 0 40px 0;
+                .brand-logos {
+                    width: 30px;
+                    padding: 0 10px;
+                }
+            }
+        }
+        
+        .brand-carousel {
+            background-color: $sectionColour;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+        
+        .footer-section {
+            background-color: $primaryColour;
+            text-align: center;
+            width: 100%;
+        }
